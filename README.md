@@ -5,8 +5,8 @@ docker
 A mosquitto docker image whith mosquitto 1.35
 
 # ntireader-www
-NTI Buddhist Text Reader
-==========
+## NTI Buddhist Text Reader
+
 A text reader, including dictionary and tools, for analyzing and managing Buddhist texts in Chinese and Sanskrit. This is a non-profit, open source project. You can find the source code in https://github.com/alexamies/buddhist-dictionary
 
 There are three parts to the project:
@@ -24,12 +24,12 @@ There are three parts to the project:
 
 This docker image is the web user interface part which include the logic to create database and load data.
 
-Get it
-==========
+## Get it
+
 sudo docker pull qizha/ntireader-www
 
-Run it
-==========
+## Run it
+
 1.Launch database container
 > sudo docker run --name db -P -e MYSQL_ROOT_PASSWORD=admin -d mysql
 
